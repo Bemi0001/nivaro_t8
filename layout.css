@@ -1,0 +1,55 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "MyFont", sans-serif;
+}
+
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Hamburger menu layout */
+.menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+
+/* Category images stacked */
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-item {
+  position: relative;
+  display: block;
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
