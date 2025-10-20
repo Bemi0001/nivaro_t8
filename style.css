@@ -1,0 +1,49 @@
+/******FONTS******/
+@font-face {
+    font-family: 'LouizeReg'; 
+    src: url(205TF-LouizeDisplay-Regular.ttf) format('woff'); 
+}
+
+@font-face {
+    font-family: 'LouizeIta'; 
+    src: url(205TF-LouizeDisplay-Italic.ttf) format('woff'); 
+}
+
+@font-face {
+    font-family: 'America'; 
+    src: url(gt_america_mono_regular-webfont.woff) format('woff'); 
+}
+/******FONTS******/
+
+
+h1{
+    font-family: 'LouizeReg', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.9rem;
+}
+body {
+    background-color: #FAFAFA;
+    color: #0A0A0A;
+}
+
+.italic{
+    font-family: 'LouizeIta';
+    font-weight: 100;
+}
+
+/*******LANDING*****/
+.shop-button {
+    color: #FAFAFA; 
+    font-family: 'LouizeReg';
+    font-weight: 100;
+}
+/*******LANDING*****/
+
+/***********MENU*********/
+
+h2{
+font-family: 'LouizeReg';
+font-weight: 100;
+font-size: 1.9rem;
+}
+/***********MENU*********/
