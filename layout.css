@@ -364,6 +364,65 @@ nav ul li a {
     color: #666; 
 }
 
+/***********ABOUT US*************/
+.about-heading {
+    font-size: 2.9rem;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    line-height: 0; 
+    position: relative; 
+}
+
+.header-icon {
+    width: 73px; 
+    height: 36px;
+    vertical-align: middle; 
+    margin-left: 5px; 
+    margin-bottom: 23px;
+    object-fit: cover;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 10px;
+    margin-top: auto;
+    align-items: start; 
+    min-height: 0; 
+}
+.about-content {
+    margin-top: 35vh; 
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+
+.about-text {
+    font-size: 0.64rem;
+    font-family: 'America';
+    line-height: 1.5;
+    margin: 0;
+    text-align: left; 
+}
+
+.text-gap {
+    height: 0px; 
+}
+
+.about-image {
+    max-width: 220px;
+    height: 280px;
+    object-fit: cover; 
+    max-height: 100%; 
+    filter: grayscale(100%);
+}
+
 
 @media (min-width: 768px) {
     main {
